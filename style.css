@@ -1,5 +1,207 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-* {
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100%;
+    margin: 0;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    padding: 16px 200px;
+    padding-bottom: 40px;
+}
+
+.head {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0;
+    gap: 16px;
+    margin-left: auto;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+.sign-up {
+    flex: 1 0 0;
+    width: 0;
+    flex-wrap: wrap;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.corn {
+    width: 100%;
+}
+
+.text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    margin-top: 8px;
+}
+
+.cornimg {
+    flex: 1 0 0;
+    width: 0;
+    height: auto;
+    flex-wrap: wrap;
+    align-self: center;
+    min-height: 100px;
+    min-width: 240px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5em 0 100px 0;
+}
+
+.randominfo {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-items: center;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.white {
+    border: 1px solid #3882F6;
+    border-radius: 4px;
+    padding: 16px;
+    width: 150px;
+    height: 150px;
+    margin: 16px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.section2 {
+    background-color: #E5E7E7EB;
+    justify-items: center;
+}
+
+.quote{
+    padding: 150px 425px;
+}
+
+p {
+    font-size: 36px;
+    font-style: italic;
+    color: grey;
+}
+
+.thor {
+    font-weight: bold;
+    text-align: right;
+    font-size: 20   px;
+}
+
+.text2 {
+}
+
+.banner {
+    background-color: #3882F6;
+    margin: 100px 400px;
+    color: white;
+    padding: 50px 150px 50px 150px;
+    border-radius: 14px;
+    display: flex;
+}
+
+.action {
+    font-weight: 550;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.click {
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+button.sign-up2 {
+    box-sizing: border-box;
+    padding: 6px 40px;
+    background: #3882F6;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    margin-left: auto;
+    border-radius: 8px;
+}
+
+.button2{
+    border: 1px solid black;
+}
+
+.footer {
+    padding: 40px;
+    background-color: #1F2937;
+    text-align: center;
+    font-size: larger;
+    color: white;
 }
